@@ -3,8 +3,8 @@
 import setuptools
 import sys
 
-from castle import __version__
-
+# from castle import __version__
+__version__ = "1.0.3rc1"
 
 if sys.version_info < (3, 6):
     sys.exit("Sorry, Python < 3.6 is not supported.")
